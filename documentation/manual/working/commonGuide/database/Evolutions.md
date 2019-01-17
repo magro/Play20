@@ -25,7 +25,7 @@ Your models will need an instance of `Database` to make connections to your data
 
 ## Evolutions scripts
 
-Play tracks your database evolutions using several evolutions script. These scripts are written in plain old SQL and should be located in the `conf/evolutions/{database name}` directory of your application. If the evolutions apply to your default database, this path is `conf/evolutions/default`.
+Play tracks your database evolutions using several evolutions script. These scripts are written in plain old SQL and should be located in the `src/main/resources/evolutions/{database name}` directory of your application. If the evolutions apply to your default database, this path is `src/main/resources/evolutions/default`.
 
 The first script is named `1.sql`, the second script `2.sql`, and so on…
 
